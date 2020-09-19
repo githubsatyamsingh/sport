@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css\font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="hero">
+		<div class="nav_bar">
+		<div class="nav_logo">
+			<img src="logo.png" alt="">
+		</div>
+		<div class="nav_link" id="nav_link">
+			<i class="fa fa-close" onclick="closeMenu()"></i>
+			<ul>
+				<a href="">
+					<li>Home</li>
+				</a>
+				<a href="">
+					<li>About</li>
+				</a>
+				<a href="">
+					<li>Home</li>
+				</a>
+				<a href="">
+					<li>Contact Us</li>
+				</a>
+			</ul>
+			<button class="btn">Sign Up</button>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</div>
+	<div class="banner_title">
+		<h1>Sport is <span> Everything</span>. <br/>It is Not Comes in <span>Religion</span>.</h1>
+		<button class="btn">Explore</button>
+	</div>
+	<div class="vertical_bar">
+		<div class="search_icon">
+			<i class="fa fa-list"></i>
+			<i class="fa fa-search"></i>
+		</div>
+		<div class="social_icon">			
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-youtube-play"></i>
+		</div>
+	</div>
+	<div class="notifications">
+		<div class="contains">
+			<small>Welcome. You can learn more from us. You can Call or Email us Or both can do....Thank to be Here. : )</small>
+			<p><a href="">Prev</a><a href="">Next</a></p>
+		</div>
+		<div class="notification_img"><img src="small-img.jpg" alt=""></div>
+	</div>
+	</div>
+	<script>
+		var show = document.getElementById('nav_link');
+		function  showMenu()  {
+			show.style.right="0";
+		}function  closeMenu()  {
+			show.style.right="-200px";
+		}
+	</script>
+</body>
+</html>
